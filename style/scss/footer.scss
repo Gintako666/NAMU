@@ -1,0 +1,85 @@
+.footer{
+    padding: 47px 55px 100px 55px;
+    display: flex;
+   &__link{
+       
+       &__social{
+        padding-top:62px ;
+           width: 64px;
+           display: flex;
+           justify-content: space-between;
+           padding-right: 130px;
+       }
+   }
+
+   &__workAndContactsAndLinks{
+       display: flex;
+       
+   }
+
+   &__work, &__contacts{
+    max-width: 170px;
+
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #0F0E08;
+    
+   }
+   &__title{
+    padding-bottom: 20px;
+}
+&__text{
+    padding-top: 16px;
+}
+
+   &__line{
+       display: block;
+       width: 1px;
+       height: 250px;
+       background: #1A5A4C80;
+       margin: 0 65px;
+   }
+   &_linksItem1{
+       grid-column: 1 / 2;
+       grid-row: 1/2;
+       color: #0F0E08;
+   }
+   &_linksItem2{
+    grid-column: 3 / 4;
+    grid-row: 1/2;
+    color: #0F0E08;
+    }
+    &_linksItem3{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        color: #0F0E08;
+    }
+    &_linksItem4{
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+        color: #0F0E08;
+    }
+   &__links{
+       display: grid;
+       grid-template-columns: 170px 32px 170px;
+       grid-template-rows: 14px 20px 14px;
+
+       font-family: 'IBM Plex Sans', sans-serif;
+       font-size: 14px;
+       line-height: 14px;
+       color: #0F0E08;
+    }
+    &__media1{
+        display: flex;
+        gap: 32px;
+    }
+    &__media2{
+        display: flex;
+    }
+}
+
+.fa-brands{
+    font-size: 24px;
+}

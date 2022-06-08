@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.events {
+  padding-top: 100px;
+}
+
+.nav {
+  padding: 30px;
+  display: block;
+  width: 400px;
+  height: 100%;
+  background: #DEDEDE;
+  z-index: 10000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: 0.6s;
+}
+.nav__linkNAMU {
+  color: black;
+  font-size: 42px;
+  line-height: 46px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.4s;
+}
+.nav__linkNAMU:hover {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+.nav__link {
+  color: black;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.4s;
+}
+.nav__link:hover {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+.nav .x {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.close {
+  transform: translateX(-100%);
+}
+
+.open {
+  transform: translateX(0%);
+}
+
+/*# sourceMappingURL=nav.css.map */

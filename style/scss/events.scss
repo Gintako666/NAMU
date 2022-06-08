@@ -1,0 +1,77 @@
+P{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.events{
+    padding: 0 55px;
+    padding-bottom: 100px;
+    &__title{
+        font-size: 48px;
+        line-height: 48px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color:#0F0E08;
+        padding-bottom: 56px;
+    }
+    &__items{
+        display: flex;
+        flex-direction: column;
+        gap: 104px;
+    }
+    &__item{
+        display: flex;
+        gap: 130px;
+
+        &__img{
+            width:670px;
+            height: 520px;
+
+            transition: 0.5s;
+        }
+        &__img:hover{
+            transform: scale(1.01);
+        }
+        &__content{
+            padding: 163px 0 0 0;
+            &__exhibitionAndDate{
+                display: flex;
+                padding: 0 0 30px 0 ;
+                align-items:center;
+                gap: 25px;
+                
+            }
+            &__exhibition{
+                font-size: 14px;
+                line-height: 14px;
+                font-weight: 500;
+                font-family: 'IBM Plex Sans', sans-serif;
+                color:#687480;
+            }
+            &__date{
+                font-size: 14px;
+                line-height: 21px;
+                font-weight: 700;
+                font-family: 'IBM Plex Sans', sans-serif;
+                color: #1A5A4C;
+            }
+            &__title{
+                font-size: 36px;
+                line-height: 36px;
+                font-weight: 400;
+                font-family: 'Montserrat', sans-serif;
+                color: #0F0E08;
+                padding: 0 0 15px 0;
+            }
+            &__text{
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 300;
+                color:#4E4E4E;
+                font-family: 'IBM Plex Sans', sans-serif;
+
+            }
+        }
+    }
+}
