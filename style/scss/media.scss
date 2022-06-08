@@ -318,3 +318,216 @@
 // *{
 //     border: solid 1px yellow;
 // }
+@media screen and (max-width:330px){
+    .container{
+        width: 100vw;
+    }
+    .header{
+        flex-direction: column;
+        padding: 0 0 88px 0;
+        &__content{
+            width: 100vw;
+            display: flex;
+            align-items:center;
+            flex-direction: column;
+            order: 2;
+            padding: 45px 0 0 0;
+            &__title{
+                text-align: center;
+            }
+            &__nav{
+                margin-bottom: 70px;
+            }
+            &__title{
+                font-size: 45px;
+                margin-bottom: 38px;
+                line-height: 64.8px;
+            }
+            &__events{
+                display: none;
+            }
+            &__tikets{
+                margin: 0 auto;
+            }
+
+            &__nav{
+                position: absolute;
+                left: 23px;
+                top: 33px;
+                z-index: 10;
+            }
+            
+        }
+        &__img{
+            order: 1; 
+            width: 100vw;
+            height: auto;
+        }
+        &__logo{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .events{
+        padding: 0 20px;
+        &__title{
+            text-align: center;
+        }
+        &__item{
+            align-items:center;
+            flex-direction: column;
+            margin: 0 auto;
+
+            &__content{
+                padding: 0;
+                max-width: 460px;
+            }
+            &__img{
+                width: 87.5vw;
+                height: auto;
+            }
+        }
+    }
+
+    .gallery{
+        &__mediaSlider{
+            .sliderItem{
+                width: 280px;
+                height: 410px;
+            }
+        }
+    }
+    .art{
+        &__item{
+            width: 280px;
+            height: 140px;
+            padding: 20px 20px;
+
+    
+    
+            &__info{
+                
+    
+                &__lk{
+                    
+                }
+                &__data{
+                    
+                }
+            }
+            &__title{
+               font-size: 28px;
+               line-height: 28px;
+               text-align: center;
+            }
+        }
+    }
+    .subscribe{
+        background-position: 50%;
+        width: 100%;
+        height: auto;
+        padding: 163px 20px;
+        &__form{
+            justify-content: center;
+            max-width: 280px;
+            margin: 0 auto;
+
+            &__input{
+                max-width: 210px;
+                font-size:14px;
+            line-height: 14px;
+            padding-left: 20px;
+                max-height: 50px;
+                box-sizing: border-box;
+                padding: 25px 20px;
+            }
+            &__button{
+                max-width: 50px;
+                max-height: 50px; 
+            }
+        }
+    }
+.footer{
+    padding: 32px 20px;
+    padding-bottom: 50px;
+    justify-content: center;
+    max-width: 280px;
+    flex-direction: column;
+    margin: 0 auto;
+
+    &__link{
+        display: flex;
+        align-items:center;
+        gap: 160px;
+        &__social{
+            gap: 30px;
+            padding: 0;
+        }
+        padding-bottom: 40px;
+    }
+    &__workAndContactsAndLinks{
+        flex-direction: column;
+        gap: 32px;
+    }
+    &__work, &__contacts{
+        width: 130px;
+    }
+
+
+    &__line{
+    
+    width: 280px;
+    height: 1px;
+    
+    margin: 64px 0px;
+    }
+    &_linksItem1{
+    
+    width: 130px;
+    
+    }
+    &_linksItem2{
+ 
+    width: 130px;
+ 
+    }
+    &_linksItem3{
+     
+     width: 130px;
+    }
+    &_linksItem4{
+     
+     width: 130px;
+    }
+
+    &__links{
+        max-width: 280px;
+    }
+    &__links{
+        display: grid;
+        grid-template-columns: 130px 20px 130px;
+        grid-template-rows: 14px 20px 14px;
+    }
+ 
+    &__media1{
+     
+     gap: 32px;
+    }
+    &__media2{
+     
+     flex-direction: column;
+     
+    }
+
+}
+.nav{
+
+    padding: 30px;
+    
+    width: 280px;
+}
+}
+// *{
+//     border: solid 1px yellow;
+// }
